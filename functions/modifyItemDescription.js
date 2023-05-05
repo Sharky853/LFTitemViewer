@@ -74,7 +74,7 @@ async function process(interaction, data, bot) {
             rows.push(new ActionRowBuilder()
                 .addComponents(
                     new ButtonBuilder()
-                    .setCustomId('nothing1')
+                    .setCustomId('Modify.Item.Description.Description')
                     .setLabel(`Change item description`)
                     .setStyle(ButtonStyle.Primary),
                 ));

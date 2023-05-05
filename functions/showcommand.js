@@ -331,6 +331,10 @@ async function process(interaction, data, bot) {
                             .setLabel("Item perks")
                             .setDescription("Make change in the perk selection of a item")
                             .setValue(`4:${itemselectedW.id}`),
+                            new StringSelectMenuOptionBuilder()
+                            .setLabel("Item perks")
+                            .setDescription("Make change in the image of a item")
+                            .setValue(`5:${itemselectedW.id}`),
                         )
                     ))
                 // Create a canvas to build the weapon picture
