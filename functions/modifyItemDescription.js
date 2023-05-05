@@ -89,7 +89,7 @@ async function process(interaction, data, bot) {
             rows.push(new ActionRowBuilder()
                 .addComponents(
                     new StringSelectMenuBuilder()
-                    .setCustomId('weapon.class.select')
+                    .setCustomId('modify.class.select')
                     .setPlaceholder(`Change item class`)
                     .addOptions(fieldsC),
                 ));
