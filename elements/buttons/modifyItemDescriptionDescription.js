@@ -9,7 +9,7 @@ const {
 const fs = require('fs');
 
 module.exports = {
-    name: "Modify name",
+    name: "Modify description",
     id: "Modify.Item.Description.Description",
     async execute(interaction, bot) {
 
