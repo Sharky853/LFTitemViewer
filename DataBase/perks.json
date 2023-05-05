@@ -1,0 +1,14 @@
+[{
+    "id": 0,
+    "name": "Fire damage boost",
+    "isevent": false,
+    "fields": [{
+        "cat": "brun",
+        "val": 5
+    }],
+    "compatibility": [{
+        "id": 0
+    }, {
+        "id": 1
+    }]
+}]

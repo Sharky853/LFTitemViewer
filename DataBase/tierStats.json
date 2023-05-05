@@ -1,0 +1,221 @@
+[
+    {
+        "id": 1,
+        "basestats": {
+            "Common": [{
+                "value": 22,
+                "increment": 1
+              },
+              {
+                "value": 33,
+                "increment": 0.44
+              },
+              {
+                "value": 37,
+                "increment": 0.44
+              },
+              {
+                "value": 41,
+                "increment": 0.44
+              },
+              {
+                "value": 45,
+                "increment": 0.56
+              }
+            ],
+            "Uncommon": [{
+                "value": 28,
+                "increment": 0.78
+              },
+              {
+                "value": 35,
+                "increment": 0.78
+              },
+              {
+                "value": 42,
+                "increment": 0.78
+              },
+              {
+                "value": 49,
+                "increment": 0.78
+              },
+              {
+                "value": 56,
+                "increment": 0.56
+              }
+            ],
+            "Rare": [{
+                "value": 33,
+                "increment": 0.89
+              },
+              {
+                "value": 41,
+                "increment": 0.89
+              },
+              {
+                "value": 49,
+                "increment": 0.89
+              },
+              {
+                "value": 57,
+                "increment": 0.89
+              },
+              {
+                "value": 65,
+                "increment": 0.78
+              }
+            ],
+            "Epic": [{
+                "value": 39,
+                "increment": 1
+              },
+              {
+                "value": 48,
+                "increment": 1
+              },
+              {
+                "value": 57,
+                "increment": 1
+              },
+              {
+                "value": 66,
+                "increment": 1
+              },
+              {
+                "value": 75,
+                "increment": 0.89
+              }
+            ],
+            "Legendary": [{
+                "value": 68,
+                "increment": 0.78
+              },
+              {
+                "value": 75,
+                "increment": 0.78
+              },
+              {
+                "value": 82,
+                "increment": 0.78
+              },
+              {
+                "value": 89,
+                "increment": 0.78
+              },
+              {
+                "value": 96,
+                "increment": 0.56
+              }
+            ]
+          }
+    },{
+        "id": 0,
+        "basestats": {
+            "Common": [{
+                "value": 145,
+                "increment": 1.22
+              },
+              {
+                "value": 157,
+                "increment": 1.22
+              },
+              {
+                "value": 169,
+                "increment": 1.22
+              },
+              {
+                "value": 181,
+                "increment": 1.22
+              },
+              {
+                "value": 193,
+                "increment": 1
+              }
+            ],
+            "Uncommon": [{
+                "value": 154,
+                "increment": 2.44
+              },
+              {
+                "value": 178,
+                "increment": 2.44
+              },
+              {
+                "value": 202,
+                "increment": 2.44
+              },
+              {
+                "value": 226,
+                "increment": 2.44
+              },
+              {
+                "value": 250,
+                "increment": 2.44
+              }
+            ],
+            "Rare": [{
+                "value": 163,
+                "increment": 3.44
+              },
+              {
+                "value": 197,
+                "increment": 3.44
+              },
+              {
+                "value": 231,
+                "increment": 3.44
+              },
+              {
+                "value": 265,
+                "increment": 3.44
+              },
+              {
+                "value": 299,
+                "increment": 3.67
+              }
+            ],
+            "Epic": [{
+                "value": 178,
+                "increment": 4.56
+              },
+              {
+                "value": 223,
+                "increment": 4.56
+              },
+              {
+                "value": 268,
+                "increment": 4.56
+              },
+              {
+                "value": 313,
+                "increment": 4.56
+              },
+              {
+                "value": 358,
+                "increment": 5.11
+              }
+            ],
+            "Legendary": [{
+                "value": 335,
+                "increment": 3
+              },
+              {
+                "value": 365,
+                "increment": 3
+              },
+              {
+                "value": 395,
+                "increment": 3
+              },
+              {
+                "value": 425,
+                "increment": 3
+              },
+              {
+                "value": 455,
+                "increment": 3.33
+              }
+            ]
+          }
+    }
+]

@@ -1,0 +1,79 @@
+[{
+    "id": 1,
+    "stats": [{
+        "cat": "Dam",
+        "base": 0
+      },
+      {
+        "cat": "CoD",
+        "base": 10
+      },
+      {
+        "cat": "Rag",
+        "base": 25
+      },
+      {
+        "cat": "PSpe",
+        "base": 38.5
+      }, {
+        "cat": "Spr",
+        "base": 3
+      }, {
+        "cat": "Clip",
+        "base": 15
+      }
+    ]
+},
+{
+    "id": 0,
+    "stats": [
+          {
+            "cat": "Dam",
+            "base": 0
+          },
+          {
+            "cat": "Dam%",
+            "base": 0
+          },
+          {
+            "cat": "Rag",
+            "base": 25
+          },
+          {
+            "cat": "CoD",
+            "base": 5.55555556
+          },
+          {
+            "cat": "PSpe",
+            "base": 38.5
+          }, {
+            "cat": "Crit",
+            "base": 0.01
+          }, {
+            "cat": "Cdmg",
+            "base": 1
+          }
+    ]
+},{
+    "id" : 4,
+    "stats": [{
+        "cat": "Dam",
+        "base": 0
+      },
+      {
+        "cat": "CoD",
+        "bas": 5.6
+      },
+      {
+        "cat": "Rag",
+        "base": 25
+      },
+      {
+        "cat": "PSpe",
+        "base": 38.5
+      }, {
+        "cat": "Crit",
+        "base": 1
+      }
+    ]
+}]

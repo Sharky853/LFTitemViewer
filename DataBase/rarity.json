@@ -1,0 +1,50 @@
+[{
+    "id": 0,
+    "nom": "Common",
+    "testnumber": 5,
+    "field": {
+      "label": "Common",
+      "description": "weakest",
+      "value": "0"
+    }
+  },
+  {
+    "id": 1,
+    "nom": "Uncommon",
+    "testnumber": 7,
+    "field": {
+      "label": "Uncommon",
+      "description": "Maaa",
+      "value": "1"
+    }
+  },
+  {
+    "id": 2,
+    "nom": "Rare",
+    "testnumber": 10,
+    "field": {
+      "label": "Rare",
+      "description": "Start to be good",
+      "value": "2"
+    }
+  },
+  {
+    "id": 3,
+    "nom": "Epic",
+    "field": {
+      "label": "Epic",
+      "description": "Good",
+      "value": "3"
+    }
+  },
+  {
+    "id": 4,
+    "nom": "Legendary",
+    "testnumber": 10,
+    "field": {
+      "label": "Legendary",
+      "description": "Better",
+      "value": "4"
+    }
+  }
+]
