@@ -55,7 +55,7 @@ async function process(interaction, data, bot) {
                 }
             }
 
-            globalinfo = `item id : \`${item.id}\`\nitem name :\` ${item.nom}\`\nclass : \`${item.class}\`\ndescription : \`${item.description}\`\nlabel description : \`${item.field.label}\`\n`
+            globalinfo = `item id : \`${item.id}\`\nitem name :\` ${item.nom}\`\nclass : \`${item.class}\`\ndescription : \`${item.description}\`\nlabel description : \`${item.field.description}\`\n`
 
 
             let fieldsC = []
@@ -81,7 +81,7 @@ async function process(interaction, data, bot) {
             rows.push(new ActionRowBuilder()
                 .addComponents(
                     new ButtonBuilder()
-                    .setCustomId('nothing2')
+                    .setCustomId('Modify.Item.Description.Label')
                     .setLabel(`Change item label description`)
                     .setStyle(ButtonStyle.Primary),
                 ));

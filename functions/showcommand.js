@@ -246,7 +246,7 @@ async function process(interaction, data, bot) {
                     trainingInfo = "missing data or error in the build "
                 }
                 try {
-                    globalinfo = `item id : \`${itemselectedW.id}\`\nitem name :\` ${itemselectedW.nom}\`\nclass : \`${itemselectedW.class}\`\ndescription : \`${itemselectedW.description}\`\nlabel description : \`${itemselectedW.field.label}\`\n`
+                    globalinfo = `item id : \`${itemselectedW.id}\`\nitem name :\` ${itemselectedW.nom}\`\nclass : \`${itemselectedW.class}\`\ndescription : \`${itemselectedW.description}\`\nlabel description : \`${itemselectedW.field.description}\`\n`
                 } catch {
                     globalinfo = "missing data or error in the build "
                 }
