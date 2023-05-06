@@ -3,15 +3,16 @@ module.exports = {
     id: "show.modifi.database",
     async execute(interaction, bot) {
         let selected = interaction.values[0];
+        let data
+        let path = ""
         selected = selected.split(":")
         switch (selected[0]){
             case "0" :
-                const funnyFunction = require("../../functions/modifyItemDescription.js")
-                let data = { values: [{position: 0, value: selected[1]}]};
-                await funnyFunction.process(interaction, data, bot);
+
+                path = "../../functions/modifyItemDescription.js"
             break;
             case "1" :
-
+                path ="../../functions/modifyItemTemplate.js"
             break;
             case "2" :
 
@@ -25,6 +26,10 @@ module.exports = {
             case "5" :
 
             break;
+            
         }
+        const funnyFunction = require(path)
+            data = { values: [{position: 0, value: selected[1]}]};
+                await funnyFunction.process(interaction, data, bot);
     }
 };

@@ -35,7 +35,7 @@ module.exports = {
 
         const modal = new ModalBuilder()
             .setCustomId('Modify.Item.Description.Description.Answer')
-            .setTitle(`Change the description of ${item.nom}`);
+            .setTitle(`Change the description of a item`);
 
 
         const favoriteColorInput = new TextInputBuilder()
@@ -44,7 +44,7 @@ module.exports = {
             .setMinLength(1)
             .setCustomId('favoriteColorInput')
             // The label is the prompt the user sees for this input
-            .setLabel(`Change ${item.nom} name`)
+            .setLabel(`Change ${item.nom} description`)
 
             .setValue(`${item.description}`)
             // Short means only a single line of text

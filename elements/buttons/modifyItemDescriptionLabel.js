@@ -35,7 +35,7 @@ module.exports = {
 
         const modal = new ModalBuilder()
             .setCustomId('Modify.Item.Description.Label.Answer')
-            .setTitle(`Change the label of ${item.nom}`);
+            .setTitle(`Change the label of a item`);
 
 
         const favoriteColorInput = new TextInputBuilder()

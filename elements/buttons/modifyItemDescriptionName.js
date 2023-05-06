@@ -39,7 +39,7 @@ module.exports = {
 
 
         const favoriteColorInput = new TextInputBuilder()
-            .setMaxLength(30)
+            .setMaxLength(26)
             // set the minimum number of characters required for submission
             .setMinLength(1)
             .setCustomId('favoriteColorInput')
