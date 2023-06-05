@@ -14,11 +14,11 @@ module.exports = {
 
         //verifie if number is in bounds , if not , make it inbounds 
         if(value < 1){
-            value = 1
+            value = 1 
         }
         if(value > 50){
-            value = 50
-        }
+            value = 50 
+        }    
 
         //remove leading 0 if needed : example :  09 become 9
         value =  parseInt(value);

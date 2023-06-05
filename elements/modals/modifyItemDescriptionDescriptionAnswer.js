@@ -23,9 +23,6 @@ module.exports = {
         let items = JSON.parse(fs.readFileSync(bot.config.weaponspath));
         let item
 
-        gogo = 0101 
-
-        console.log(gogo)
 
         for (let I = 0; I < items.length; I++) {
             if (items[I].id == id) {

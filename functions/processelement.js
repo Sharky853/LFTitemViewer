@@ -46,7 +46,6 @@ async function process(interaction, data, bot) {
                 });
                 footerText = footerText.substring(0, footerText.length - 1);
             }
-
             let footerData = footerText.split("data");
             let footerDataData = footerData[1].split(":");
 
